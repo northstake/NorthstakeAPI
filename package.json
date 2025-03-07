@@ -1,0 +1,27 @@
+{
+   "name": "@northstake/northstakeapi",
+   "version": "1.0.38",
+   "description": "Northstake SDK",
+   "main": "dist/api.js",
+   "types": "dist/api.d.ts",
+   "dependencies": {
+      "base-64": "^1.0.0",
+      "js-yaml": "^4.1.0",
+      "jsonwebtoken": "^9.0.2",
+      "request": "^2.88.2"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/northstake/NorthstakeAPI"
+   },
+   "scripts": {
+      "build": "tsc",
+      "prepublish": "npm run build"
+   },
+   "author": "Northstake build process <buildadmin@northstake.dk>",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/node": "^22.13.9",
+      "typescript": "^5.8.2"
+   }
+}
